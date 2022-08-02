@@ -1,0 +1,117 @@
+@media (max-width: 991px) {
+    .promo {
+        .container {
+            margin: 0 10px 0 0;
+        }
+    }
+    .header {
+        &__phone {
+            font-size: 17px;
+        }
+        &__logo{
+            width: 220px;
+        }
+        &__official {
+            margin-right: 15px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        .container {
+            margin: 0 10px 0 0;
+        }
+    }
+    .header {
+        &__phone {
+            font-size: 17px;
+        }
+        &__logo{
+            width: 220px;
+        }
+        &__official {
+            margin-right: 15px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .promo {
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__header {
+            font-size: 18px;
+            line-height: 31px;
+        }
+        &__subheader {
+            margin-top: 0px;
+            font-size: 12px;
+            line-height: 15px;
+        }
+        &__icons {
+            width: 285px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            width: 93px;
+            font-size: 11px;
+        }
+        .button_main {
+            margin-top: 67px;
+            width: 229px;
+            height: 34px;
+            font-size: 13px;
+            line-height: 25px;
+        }
+        &__link {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 19px;
+        }
+    }
+    .header {
+        &__logo {
+            width: 170px;
+        }
+        &__official {
+           display: none;
+        }
+        &__contacts {
+            a {
+                font-size: 12px;
+                margin-right: 5px;
+            }
+            button {
+                width: 115px;
+                height: 24px;
+                font-size: 9px;
+            }
+        }
+    }
+    .second {
+        &__main {
+            font-size: 18px;
+        }
+        &__wrapper {
+            margin-top: 38px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            min-width: 200px;
+        }
+        &__subtitle {
+            margin-top: 13px;
+            font-size: 15px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+    }
+
+}
