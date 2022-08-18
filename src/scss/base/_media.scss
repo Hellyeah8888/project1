@@ -18,6 +18,22 @@
     .consultation {
         padding: 100px 0 92px 10px;
     }
+    .carousel {
+        padding: 60px 0;
+        img {
+            height: 70%;
+            margin: 0 auto;
+        }
+        .slick-dots {
+            display: flex;
+            justify-content: space-around;
+            list-style: circle;
+        }
+        .slick-list {
+            height: 510px;
+        }
+        
+    }
 }
 
 @media (max-width: 767px) {
@@ -48,6 +64,16 @@
         &__descr {
             font-size: 14px;
         }
+    }
+    .carousel {
+        &__inner {
+            width: 608px;
+        }
+        img {
+            width: 90%;
+        }
+        
+        
     }
 }
 @media (max-width: 575px) {
@@ -149,5 +175,18 @@
             }
         }
     }
-
+    .carousel {
+        padding: 45px 0;
+        &__inner {
+            width: 364px;
+        }
+        img {
+            height: 65%;
+            width: 101%;
+        }
+        .slick-list {
+            width: 355px;
+            height: 366px;
+        }
+    }
 }
